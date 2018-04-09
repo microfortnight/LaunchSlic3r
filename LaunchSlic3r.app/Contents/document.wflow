@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AMApplicationBuild</key>
+	<string>444.7</string>
+	<key>AMApplicationVersion</key>
+	<string>2.8</string>
+	<key>AMDocumentVersion</key>
+	<string>2</string>
+	<key>actions</key>
+	<array>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.1.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>fileNames</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Specified Finder Items.action</string>
+				<key>ActionName</key>
+				<string>Get Specified Finder Items</string>
+				<key>ActionNameComment</key>
+				<string>Get folder Applications</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>fileNames</key>
+					<array>
+						<string>/Applications</string>
+					</array>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.SpecifiedFiles</string>
+				<key>CFBundleVersion</key>
+				<string>1.1.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>SpecifiedFilesAction</string>
+				<key>InputUUID</key>
+				<string>281B97A1-1460-4002-823B-1CE6E902A8B6</string>
+				<key>Keywords</key>
+				<array>
+					<string>File</string>
+					<string>Choose</string>
+					<string>Find</string>
+					<string>Get</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>BC45944A-9BC5-491D-A95F-DE7CA9B226C6</string>
+				<key>UUID</key>
+				<string>BFEE51EB-9890-4127-942A-F0EE8A0C7250</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<array/>
+						<key>name</key>
+						<string>fileNames</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>529.000000:308.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Specified Finder Items.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<false/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>recurse</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.cocoa.path</string>
+					</array>
+				</dict>
+				<key>AMRequiredResources</key>
+				<array/>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Get Folder Contents.action</string>
+				<key>ActionName</key>
+				<string>Get Folder Contents</string>
+				<key>ActionNameComment</key>
+				<string>List all apps</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>recurse</key>
+					<false/>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.GetFolderContents</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryFilesAndFolders</string>
+				</array>
+				<key>Class Name</key>
+				<string>GetFolderContents</string>
+				<key>InputUUID</key>
+				<string>ABEBF0E6-9676-4BAF-9126-3B6E1D0030B0</string>
+				<key>Keywords</key>
+				<array>
+					<string>File</string>
+					<string>Folder</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>E138167A-2FDB-4BCD-BEEB-3A5768CAA6F9</string>
+				<key>UUID</key>
+				<string>7B078D5A-36B8-4E44-97E0-159A3BC4DE64</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Finder</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<false/>
+						<key>name</key>
+						<string>recurse</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>529.000000:408.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Get Folder Contents.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run JavaScript.action</string>
+				<key>ActionName</key>
+				<string>Run JavaScript</string>
+				<key>ActionNameComment</key>
+				<string>Filter apps starting with "Slic3r", choose Slic3r version from list</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>function run(input, parameters) {	var app = Application.currentApplication()	app.includeStandardAdditions = true     var slic3rs = []	    for (var i = 0; i &lt; input.length; i++) {		var appPath = input[i].toString()		var appName = appPath.split('\\').pop().split('/').pop();		if (appName.startsWith("Slic3r")) {			slic3rs.push(appPath);		}    }		var slic3r = app.chooseFromList(slic3rs, {			withPrompt: 'Choose Slic3r version:',			multipleSelectionsAllowed: false	});	var s = slic3r.toString();	var appVersion = s.substring(s.indexOf("-")+1, s.lastIndexOf("."));	//app.displayDialog(slic3r);	return [slic3r, appVersion];}</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunJavaScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunJavaScriptAction</string>
+				<key>InputUUID</key>
+				<string>0C65B26D-4396-4A11-B5A6-262B6B76CB5D</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+					<string>JavaScript</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>DD618283-BFE5-4E9A-8045-6A3E4A3FA853</string>
+				<key>UUID</key>
+				<string>F3019ED8-2B53-461D-AA8B-BAB0D1DEE2DC</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>function run(input, parameters) {
+	
+	// Your script goes here
+
+	return input;
+}</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>529.000000:654.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run JavaScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>action</key>
+			<dict>
+				<key>AMAccepts</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Optional</key>
+					<true/>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>AMActionVersion</key>
+				<string>1.0.2</string>
+				<key>AMApplication</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>AMParameterProperties</key>
+				<dict>
+					<key>source</key>
+					<dict/>
+				</dict>
+				<key>AMProvides</key>
+				<dict>
+					<key>Container</key>
+					<string>List</string>
+					<key>Types</key>
+					<array>
+						<string>com.apple.applescript.object</string>
+					</array>
+				</dict>
+				<key>ActionBundlePath</key>
+				<string>/System/Library/Automator/Run AppleScript.action</string>
+				<key>ActionName</key>
+				<string>Run AppleScript</string>
+				<key>ActionNameComment</key>
+				<string>Launch Slic3r</string>
+				<key>ActionParameters</key>
+				<dict>
+					<key>source</key>
+					<string>on run {input, parameters}		-- Name of the folder containing the Slic3r profiles	set Slic3rProfilesFolderName to "Slic3rProfiles"		-- Location of the folder containing the Slic3r profiles	-- ownCloud, Dropbox, ~/Library/Application Support, ...	--set Slic3rProfilesParent to ((path to home folder as string) &amp; "ownCloud:")	--set Slic3rProfilesParent to ((path to home folder as string) &amp; "Dropbox:")	set Slic3rProfilesParent to ((path to library folder from user domain as text) &amp; "Application Support:")		--Create folder if it doesn't exist	set Slic3rProfilesRoot to Slic3rProfilesParent &amp; Slic3rProfilesFolderName	tell application "Finder"		if (not (exists (folder Slic3rProfilesRoot))) then			make new folder at Slic3rProfilesParent with properties {name:Slic3rProfilesFolderName}		end if	end tell			set applicationPath to item 1 of input	set applicationVersion to item 2 of input		--set libraryPath to "/Users/till/Library/Application Support/Slic0r/" &amp; item 2 of input &amp; "/"	--set libraryPathQuoted to quoted form of libraryPath	--set settingsPath to "~/Documents/Slic3rPE-" &amp; item 2 of input		set settingsPath to Slic3rProfilesRoot &amp; ":" &amp; applicationVersion	--set settingsPathQuoted to quoted form of settingsPath	set settingsPathQuoted to quoted form of the POSIX path of settingsPath	set shellScript to "open -a " &amp; applicationPath &amp; " --args --datadir " &amp; settingsPathQuoted	do shell script shellScript		return settingsPathQuotedend run</string>
+				</dict>
+				<key>BundleIdentifier</key>
+				<string>com.apple.Automator.RunScript</string>
+				<key>CFBundleVersion</key>
+				<string>1.0.2</string>
+				<key>CanShowSelectedItemsWhenRun</key>
+				<false/>
+				<key>CanShowWhenRun</key>
+				<true/>
+				<key>Category</key>
+				<array>
+					<string>AMCategoryUtilities</string>
+				</array>
+				<key>Class Name</key>
+				<string>RunScriptAction</string>
+				<key>InputUUID</key>
+				<string>7D9DD256-D899-4A10-B98E-B56876BCD7D2</string>
+				<key>Keywords</key>
+				<array>
+					<string>Run</string>
+				</array>
+				<key>OutputUUID</key>
+				<string>12929BA0-E550-443A-9A55-50C8937805DF</string>
+				<key>UUID</key>
+				<string>BEFA70EE-047F-4785-BD9E-68614842105F</string>
+				<key>UnlocalizedApplications</key>
+				<array>
+					<string>Automator</string>
+				</array>
+				<key>arguments</key>
+				<dict>
+					<key>0</key>
+					<dict>
+						<key>default value</key>
+						<string>on run {input, parameters}
+	
+	(* Your script goes here *)
+	
+	return input
+end run</string>
+						<key>name</key>
+						<string>source</string>
+						<key>required</key>
+						<string>0</string>
+						<key>type</key>
+						<string>0</string>
+						<key>uuid</key>
+						<string>0</string>
+					</dict>
+				</dict>
+				<key>isViewVisible</key>
+				<true/>
+				<key>location</key>
+				<string>529.000000:900.000000</string>
+				<key>nibPath</key>
+				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
+			</dict>
+			<key>isViewVisible</key>
+			<true/>
+		</dict>
+	</array>
+	<key>connectors</key>
+	<dict>
+		<key>3F0105D9-8C63-44F8-B8BD-E4A38EEAEDC8</key>
+		<dict>
+			<key>from</key>
+			<string>BFEE51EB-9890-4127-942A-F0EE8A0C7250 - BFEE51EB-9890-4127-942A-F0EE8A0C7250</string>
+			<key>to</key>
+			<string>7B078D5A-36B8-4E44-97E0-159A3BC4DE64 - 7B078D5A-36B8-4E44-97E0-159A3BC4DE64</string>
+		</dict>
+		<key>B4B4E312-DB17-43ED-BB79-BBD4AF77CE0F</key>
+		<dict>
+			<key>from</key>
+			<string>7B078D5A-36B8-4E44-97E0-159A3BC4DE64 - 7B078D5A-36B8-4E44-97E0-159A3BC4DE64</string>
+			<key>to</key>
+			<string>F3019ED8-2B53-461D-AA8B-BAB0D1DEE2DC - F3019ED8-2B53-461D-AA8B-BAB0D1DEE2DC</string>
+		</dict>
+		<key>D71CA1B5-84E5-48CA-825C-3B0D4BB1CB7A</key>
+		<dict>
+			<key>from</key>
+			<string>F3019ED8-2B53-461D-AA8B-BAB0D1DEE2DC - F3019ED8-2B53-461D-AA8B-BAB0D1DEE2DC</string>
+			<key>to</key>
+			<string>BEFA70EE-047F-4785-BD9E-68614842105F - BEFA70EE-047F-4785-BD9E-68614842105F</string>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<array>
+		<dict>
+			<key>UUID</key>
+			<string>0689D3A3-D363-4468-B669-720DB8A0CC14</string>
+			<key>identifier</key>
+			<string>com.apple.Automator.Variable.Path</string>
+			<key>name</key>
+			<string>Path</string>
+			<key>value</key>
+			<string>~/Desktop</string>
+		</dict>
+	</array>
+	<key>workflowMetaData</key>
+	<dict>
+		<key>workflowTypeIdentifier</key>
+		<string>com.apple.Automator.application</string>
+	</dict>
+</dict>
+</plist>
